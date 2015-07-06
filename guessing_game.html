@@ -1,0 +1,34 @@
+<script>
+
+var guess,
+    answer,
+    message;
+
+  guess = prompt("How many licks does it take to get to the center of a tootsie-roll pop?");
+  console.log("The user thinks it takes " + guess + " licks to get to the candy center");
+
+  answer = Math.floor(Math.random() *789) + 1;
+  console.log("it takes " + answer + " licks to get to the candy center");
+
+  if (guess == answer) {
+    message = "Inconceivable - you must have some serious cavities in order to have that knowedge"
+  } if (guess == "3") {
+    message = "You gotta stop chewing those, they are called suckers for a reason."
+  } else {
+    message = "Don't feel bad, it takes everyone a different amount of licks!"
+  }
+
+alert(message);
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
