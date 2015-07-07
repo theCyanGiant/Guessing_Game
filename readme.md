@@ -3,3 +3,10 @@ The Tootsie-Roll Challenge:
   Can you find the trick answer?
 
   Written by James Bennett on 070615 with aid from Jose Tello
+
+UPDATE
+Changes:
+    - Style
+    - Added user guess/answer to alert message
+    - Console.log deleted
+Updated by Jeilymar Brady and James Bennett 070715 
