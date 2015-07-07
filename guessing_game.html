@@ -1,37 +1,33 @@
 <script>
 
-var guess,
-    answer,
-    message;
+  var guess,
+      answer,
+      message;
 
   guess = prompt("How many licks does it take to get to the center of a tootsie-roll pop?");
-  console.log("The user thinks it takes " + guess + " licks to get to the candy center");
 
-//This RNG will create a number between 1-790 //
-  answer = Math.floor(Math.random() *789) + 1;
-  console.log("it takes " + answer + " licks to get to the candy center");
+  //This RNG will cause the answer to be a number between 1-790
+  answer = Math.floor(Math.random() *790) + 1;
 
+  //Will assign the correct message based on Q/A to the alert method
   if (guess == answer) {
-    message = "Inconceivable - you must have some serious cavities in order to have that knowedge"
-  }
-//This is just a goofy answer referencing the old commercial with the scholarly owl who insisted on biting the lollipop//
-  if (guess == "3") {
-    message = "You gotta stop chewing those, they are called suckers for a reason."
+    message = "Inconceivable - you must have some serious cavities in order to have the knowledge that " + answer + " is the right amount of licks!";
+  } else if (guess == 3) {
+    message = "You gotta stop chewing those, they are called suckers for a reason.";
   } else {
-    message = "Don't feel bad, it takes everyone a different amount of licks!"
+    message = "Don't feel bad, it takes everyone a different amount of licks! In this case, you take " + guess + " but I take " + answer + "!";
   }
 
-alert(message);
+  alert(message);
 
+  /*
+    Changes:
+    - Style
+    - Added user guess/answer to alert message
+    - Console.log deleted
 
-
-
-
-
-
-
-
-
+  */
 
 
 </script>
+
