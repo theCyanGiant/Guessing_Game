@@ -9,4 +9,7 @@ Changes:
     - Style
     - Added user guess/answer to alert message
     - Console.log deleted
-Updated by Jeilymar Brady and James Bennett 070715 
+Updated by Jeilymar Brady and James Bennett 070715
+
+Changes on 7/8
+Game operates the same, but game is now a constructor.
