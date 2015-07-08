@@ -1,25 +1,31 @@
 <script>
 
-  // wow such variables
-  var guess,
-      answer,
-      message;
+  var Game = function() {
+    var userguess;
+    this.answer = Math.floor(Math.random() * 790) + 1;
+    this.guess = function() {
+      userguess = prompt("How many licks does it take to get to the center of a tootsie-roll pop?");
+    };
+    this.message = function() {
+      if (userguess == this.answer) {
 
-  guess = prompt("How many licks does it take to get to the center of a tootsie-roll pop?");
+      message = alert("Inconceivable - you must have some serious cavities in order to have the knowledge that " + answer + " is the right amount of licks!");
+      } else if (userguess == 3) {
 
-  //This RNG will cause the answer to be a number between 1-790
-  answer = Math.floor(Math.random() *790) + 1;
+      message = alert("You gotta stop chewing those, they are called suckers for a reason.");
+      } else {
 
-  //Will assign the correct message based on Q/A to the alert method
-  if (guess == answer) {
-    message = "Inconceivable - you must have some serious cavities in order to have the knowledge that " + answer + " is the right amount of licks!";
-  } else if (guess == 3) {
-    message = "You gotta stop chewing those, they are called suckers for a reason.";
-  } else {
-    message = "Don't feel bad, it takes everyone a different amount of licks! In this case, you take " + guess + " but I take " + answer + "!";
-  }
+      message = alert("Don't feel bad, it takes everyone a different amount of licks! In this case, you take " + userguess + " but I take " + this.answer + "!");
+      }
+    }
+  };
 
-  alert(message);
+var game = new Game();
+// game.guess();
+// game.message();
+
+game("Spencer");
 
 </script>
+
 
