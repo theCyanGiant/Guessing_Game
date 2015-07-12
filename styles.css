@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  color: #4b9595;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: #ADDEDE;
+}
+h1 {
+  text-align: center;
+  margin-top: 10;
+  border:25px solid #dbf4f4;
+  border-radius: 35px;
+  color: #4b9595;
+}
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#welcome {
+  font-family: arial;
+  color: #4b9595;
+}
+.hide {
+  display: none;
+}
+.show {
+  visibility: visible;
+  width: 75%;
+  border:10px solid #4b9595;
+  border-radius: 30px;
+}
