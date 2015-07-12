@@ -31,7 +31,7 @@
       }
 
       var score = Math.abs(userGuess - answer);
-      document.getElementById("score").textContent = "You were off by " + score + " not bad.";
+      document.getElementById("score").textContent = "You were off by " + score + ", not bad.";
 
     };
   };
