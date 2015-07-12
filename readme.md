@@ -4,12 +4,29 @@ The Tootsie-Roll Challenge:
 
   Written by James Bennett on 070615 with aid from Jose Tello
 
-UPDATE
+UPDATES
 Changes:
     - Style
     - Added user guess/answer to alert message
     - Console.log deleted
 Updated by Jeilymar Brady and James Bennett 070715
 
-Changes on 7/8
-Game operates the same, but game is now a constructor.
+Changes:
+    - Now uses object constructor.
+ Uptaded by Wyatt Williams & James Bennett on 070815
+
+Changes:
+    - Changed alerts to display on page
+    - Added some visual styling (css: colors, formatting, pictures)
+    - Cleaned unneccesary verbage
+    - Cleaned code
+    - Added console.log to display correct answer
+ Updated by James Bennett 071015-071215
+
+Additional help from
+-Chris Holt
+-Tami Love
+-Sam Hamm
+-Spencer Caldwell
+-Emre Surmeli
+-Ryan Ruzich
