@@ -15,8 +15,15 @@
 
         document.getElementById("right_answer").textContent = "Inconceivable " + userName + "! You must have some serious cavities in order to have the knowledge that " + answer + " is the right amount of licks!";
         document.getElementById("rightImg").className = "show";
-        document.getElementById("rightHide").className = "hide";
+        var hide = document.getElementsByClassName("rightHide");
+        hide.className = "hide";
         //when answer is guessed game functions properly but error "Uncaught TypeError: Cannot set property 'className' of null" ln 18 is returned in console
+        console.log (hide);
+       var paragraph = document.getElementById("p");
+       var displayName = document.createElement('h1');
+        displayName.innerHTML = ("Good job " + userName + ". Did you use the console?");
+        paragraph.appendChild (displayName);
+
 
       } else if (userGuess == 3) {
 
